@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraped Results</title>
+</head>
+<body>
+    <h1>Scraped News Trends</h1>
+    <h3>These are the most happening topics as of {{ news_data.timestamp }}:</h3>
+    <ul>
+        {% for trend, name in news_data.items() %}
+            {% if trend != 'timestamp' and trend != 'ip_address' %}
+                <li>{{ name }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <a href="/">Back to Latest Trends</a>
+</body>
+</html>
