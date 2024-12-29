@@ -86,7 +86,4 @@ Feel free to fork the repository, make improvements, and submit pull requests. C
 
 ### Demonstration
 
-<video controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Link to the video demonstration : https://drive.google.com/file/d/1jTKJNM4ZQ95psLUVhnAbJwwERRw2KS5f/view
